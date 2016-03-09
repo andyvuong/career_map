@@ -1,0 +1,99 @@
+{
+  "name": "Andy Vuong",
+  "first_name": "Andy",
+  "last_name": "Vuong",
+  "title": "Software Engineering Intern at Visa",
+  "location": "Chicago",
+  "country": "Illinois",
+  "linkedin_url": "https://www.linkedin.com/in/vuongandy",
+  "education": [
+    {
+      "name": "University of Illinois at Urbana-Champaign",
+      "description": "Bachelor's Degree, Computer Science",
+      "degree": null,
+      "major": null,
+      "period": "2013 – 2017",
+      "start_date": "2013",
+      "end_date": "2017"
+    },
+    {
+      "name": "Northside College Prep",
+      "description": "",
+      "degree": null,
+      "major": null,
+      "period": "2009 – 2013",
+      "start_date": "2009",
+      "end_date": "2013"
+    }
+  ],
+  "past_companies": [
+    {
+      "title": "Software Engineering Intern",
+      "company": "Visa",
+      "description": "• Developed a feature for the CyberSource payment gateway platform that allows any merchant using the CyberSource API to reroute their transactions in the event that their payment processor is down.• Designed a process to scale the feature to over 50 payment processors.• Developed an API request modification utility using JAXB and conducted regression tests using automated test tools.",
+      "duration": "4 months",
+      "start_date": "2015-05-01",
+      "end_date": "2015-08-04",
+      "linkedin_company_url": "https://www.linkedin.com/company/visa?trk=ppro_cprof",
+      "url": "http://usa.visa.com/careers/index.jsp",
+      "website": "http://usa.visa.com/careers/index.jsp",
+      "industry": "Information Technology and Services",
+      "type": "Public Company",
+      "company_size": "5001-10,000 employees",
+      "founded": "1958"
+    },
+    {
+      "title": "Developer Intern",
+      "company": "John Deere",
+      "description": "• Implemented a web search application using JavaScript and Apache Solr for search relevancy research.• Improved search relevancy for an internal search application.• Developed Java plugins for Apache Solr and Apache Nutch to detect scanned documents and subsequently speed-up the document indexing process by skipping those documents.",
+      "duration": "11 months",
+      "start_date": "2014-06-01",
+      "end_date": "2015-04-11",
+      "linkedin_company_url": "https://www.linkedin.com/company/john-deere?trk=ppro_cprof",
+      "url": "http://www.johndeere.com",
+      "website": "http://www.johndeere.com",
+      "industry": "Machinery",
+      "type": "Public Company",
+      "headquarters": "One John Deere Place\n\nMoline,\nIL\n61265\nUnited States",
+      "company_size": "10,001+ employees",
+      "founded": "1837",
+      "address": "One John Deere Place  Moline, IL 61265 United States"
+    },
+    {
+      "title": "Research Assistant",
+      "company": "University of Illinois at Urbana-Champaign",
+      "description": "• Engaged in a technology-aided human study investigating Facebook users' awareness of the News Feed curation algorithm. • Participated in interview coding for half the study's participants to draw theories based off collected data.• Publication: Co-authored an academic conference paper that won a Best Paper Award at SIGCHI 2015 (can be found online).",
+      "duration": "7 months",
+      "start_date": "2014-03-01",
+      "end_date": "2014-09-07",
+      "linkedin_company_url": "https://www.linkedin.com/company/university-of-illinois-at-urbana-champaign?trk=ppro_cprof",
+      "url": "http://illinois.edu",
+      "website": "http://illinois.edu",
+      "industry": "Higher Education",
+      "type": "Educational Institution",
+      "headquarters": "601 E. John Street\n\nChampaign,\nIL\n61820\nUnited States",
+      "company_size": "10,001+ employees",
+      "founded": "1867",
+      "address": "601 E. John Street  Champaign, IL 61820 United States"
+    },
+    {
+      "title": "Computer Technician",
+      "company": "Northwestern University School of Law",
+      "description": "• Single-handedly prepared and deployed new desktops for three school departments.• Provided IT support to faculty and staff on Windows systems including technical troubleshooting, software troubleshooting, and malware removal.",
+      "duration": "3 months",
+      "start_date": "2013-06-01",
+      "end_date": "2013-08-03",
+      "linkedin_company_url": "https://www.linkedin.com/company/northwestern-university-school-of-law?trk=ppro_cprof",
+      "url": "http://law.northwestern.edu",
+      "website": "http://law.northwestern.edu",
+      "industry": "Higher Education",
+      "type": "Educational Institution",
+      "headquarters": "United States",
+      "company_size": "201-500 employees",
+      "address": "United States"
+    }
+  ],
+  "current_companies": [
+
+  ]
+}
