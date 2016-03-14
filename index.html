@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Career Map</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/styles.css">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Ropa+Sans' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+    <body>
+        <div class="container-fluid">   
+            <div class="row">
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h3 class="modal-title color-red" id="modaltitle">More information</h3>
+                      </div>
+                      <div class="modal-body">
+                        <p class="color-black">Students often enter college with great dreams and ambitions. This data visualization helps you ponder why students study what they study and end up where they do. We want to answer questions like how often do people end up in industries unrelated to their major. We want to discover whether some majors are more prelevant than others during different years and why. If people end up working in an industry different from what they studied, can we discover a reason by examining global trends.
+                        </p>
+                      </div>
+                      <div class="modal-footer">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="col-side" class="col-md-4">
+                    <h1 class="text-center color-red">Career Map</h1>
+                    <hr>
+                    <p class="text-center">Welcome. Enter your school and explore a map of its graduates and current students. Filter the results with the control panel below and click to explore the interactive
+                    map to the right.</p>
+                    <p class="text-center"><a href="#" data-toggle="modal" data-target="#myModal">more info</a></p>
+                    <hr>
+                    <div id="control-panel">
+                        <p class="text-center">
+                            <label class="text-center color-red"  for="amount">Alumni population of at least:</label>
+                            <input class="text-center" type="text" id="amount" readonly>
+                        </p>
+                        <div class="text-center" id="slider-range-max"></div>
+                        <br>
+                        <p class="text-center">
+                            <label class="text-center color-red" for="dist">Miles from <strong id="school">UIUC</strong>:</label>
+                            <input class="text-center" type="text" id="dist" readonly>
+                        </p>
+                        <div class="text-center" id="slider-dist-max"></div>
+                        <br>
+                        <div class="row">
+                            <h4 class="text-center color-red">Graduation Year</h4>
+                            <div class="col-md-5">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" aria-label="..." placeholder="1970">
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <p class="text-cener"> to </p>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" aria-label="..." placeholder="2016">
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="input-group">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="button">Search</button>
+                            </span>
+                            <input type="text" class="form-control" placeholder="Enter a school (disabled)">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <h2 class="text-center color-red">About</h2>
+                        <p class="text-center">Andy Vuong, Gary Szeto, Sophia Soong, and Jason Pao</p> 
+                        <h4 class="text-center"><a href="http://social.cs.uiuc.edu/class/cs467/">CS467 @ UIUC</a></h4>
+                    </div>
+                </div>
+                <div id="col-main" class="col-md-8">
+                    <div class="row">
+                        <div id="map"></div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+        <script src="http://d3js.org/d3.v3.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.6.7/d3-tip.js"></script>
+        <script src="http://d3js.org/topojson.v1.min.js"></script>
+        <script src="./js/map.js"></script>
+        <script src="./js/datamaps.usa.min.js"></script>
+        <script src="./js/app.js"></script>
+    </body>
+</html>

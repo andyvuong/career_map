@@ -1,0 +1,97 @@
+h1, h2 ,h3 ,h4 ,h5 ,h6 ,p ,li {
+    font-family: 'Ropa Sans', sans-serif;
+    color: white; 
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+hr {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+body {
+    background: #b4debe;
+}
+
+#col-side {
+    border: 1px solid white;
+    font-size: 1.35em;
+    min-height: 100vh;
+}
+
+#col-side h1 {
+    margin-top: 15px;
+    font-size: 3.25em;
+}
+
+#slider-range-max {
+    width: 90%;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#slider-dist-max {
+    width: 90%;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#amount {
+    border: 0;
+    color: #f6931f;
+    background: #b4debe !important;
+    font-weight: bold;
+    width: 90%;
+}
+
+#myModal {
+    font-size: 1.25em;
+}
+
+#dist {
+    border: 0;
+    color: #f6931f;
+    background: #b4debe !important;
+    font-weight: bold;
+    width: 90%;
+}
+
+label {
+    font-size: 0.75em;
+}
+
+.color-red {
+    color: #e8175d;
+}
+
+.color-black {
+    color: #474747;
+}
+
+.col-md-5, .col-lg-5  {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-md-6, .col-lg-6 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+strong {
+    color: #f6931f;
+}
+
+#map {
+    width: 100%;
+    height: 100vh;
+}
+
+#col-main {
+    height: 100vh;
+}
