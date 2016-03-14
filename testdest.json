@@ -1,0 +1,20 @@
+{
+	"destinations":[
+	{
+        "latitude": 37.618889,
+        "longitude": -122.375
+
+    },
+
+    {
+        "latitude": 40.639722,
+		"longitude": -73.778889
+
+    },
+
+    {
+        "latitude": 30.194444,
+		"longitude": -97.67
+
+    }]
+}
