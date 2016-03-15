@@ -126,7 +126,7 @@ strong {
     position: absolute;
     margin: 1% 1% 1% 1%;
     border: 1px solid #777;
-    width: 500px;
+    width: 600px;
     height: 250px;
     bottom: 0;
 }
@@ -134,4 +134,22 @@ strong {
 #info-box .row {
     position: relative;
     margin: 1% 1% 1% 1%;
+}
+
+#info-ind {
+    height: 40px;
+    width: 100%;
+    overflow:auto;
+}
+
+#info-maj {
+    height: 40px;
+    width: 100%;
+    overflow:auto;
+}
+
+#info-in {
+    height: 40px;
+    width: 100%;
+    overflow:auto;
 }

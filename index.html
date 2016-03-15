@@ -22,11 +22,11 @@
                         <h3 class="modal-title color-red" id="modaltitle">More information</h3>
                       </div>
                       <div class="modal-body">
-                        <p class="color-black">Students often enter college with great dreams and ambitions. This data visualization helps you ponder why students study what they study and end up where they do. We want to answer questions like how often do people end up in industries unrelated to their major. We want to discover whether some majors are more prelevant than others during different years and why. If people end up working in an industry different from what they studied, can we discover a reason by examining global trends.
+                        <p class="color-black">Students often enter college with great dreams and ambitions. This data visualization helps you ponder why students study what they study and end up where they do. We want to answer questions like how often do people end up in industries unrelated to their major. We want to discover whether some majors are more prelevant than others during different years and why. If people end up working in an industry different from what they studied, can we discover a reason by examining global trends. We also use this to explore why certain fields of studies end up where they are.
                         </p>
                         <br>
                         <h4 class="color-red">About the Data</h4>
-                        <p class="color-black">We analyzed ~3500 linkedin public profiles for this visualization's data set, all from the University of Illinois at Urbana-Champaign. Future work includes expanding this data set to include other schools.</p>
+                        <p class="color-black">We analyzed ~3500 linkedin public profiles for this visualization's data set, all from the University of Illinois at Urbana-Champaign. Future work includes expanding improving this data set and expanding it to include other schools.</p>
 
                         <p class="color-black"><span class="color-red">Note</span> that this data set is unavailable for public use and no personal information that can identify any person is included in this visualization or elsewhere.</p>
                       </div>
@@ -36,7 +36,7 @@
                   </div>
                 </div>
                 <div id="col-side" class="col-md-4">
-                    <h1 class="text-center color-red">Career Map</h1>
+                    <h1 class="text-center color-red">Alums: Where?</h1>
                     <hr>
                     <p class="text-center">Welcome. Enter your school and explore a map of its graduates and current students. Filter the results with the control panel below and click to explore the interactive
                     map to the right.</p>
@@ -48,19 +48,19 @@
                             <input class="text-center" type="text" id="amount" readonly>
                         </p>
                         <div class="text-center" id="slider-range-max"></div>
-                        <br>
+                        <br><br><br><!--
                         <p class="text-center">
                             <label class="text-center color-red" for="dist">Miles within <strong id="school">UIUC</strong>:</label>
                             <input class="text-center" type="text" id="dist" readonly>
                         </p>
                         <div class="text-center" id="slider-dist-max"></div>
-                        <br>
+                        <br>-->
                         <p class="text-center">
                             <label class="text-center color-red" for="year">Graduation Year:</label>
                             <input class="text-center" type="text" id="year" readonly>
                         </p>
                         <div id="slider-range"></div>
-                        <br>
+                        <br><br><br>
                         <div class="input-group">
                             <span class="input-group-btn">
                                 <button class="btn btn-default" type="button">Search</button>
@@ -79,11 +79,16 @@
                     <div id="info-box">
                         <div class="row">
                             <h3>Now exploring: <span class="color-oj">UIUC</span></h3>
-                            <p id="facts"></p>
+                            <h6 class="color-oj">Industries:</h6>
+                            <p id="info-ind"></p>
+                            <h6 class="color-oj">Majors:</h6>
+                            <p id="info-maj"></p>
+                            <h6 class="color-oj">Insights:</h6>
+                            <p id="info-in"></p>
                         </div>
                     </div>
                     <div class="row">
-                        <div id="map"></div>  
+                        <div id="holder"><div id="map"></div></div>
                     </div>
                 </div>
             </div>
